@@ -11,7 +11,7 @@ counters.forEach(counter => {
         const inc = target / speed;
 
         if (count < target) {
-            counter.innerText = count + inc;
+            counter.innerText = Math.floor(count + inc);
 
             setTimeout(updateCount,50);
         } else {

@@ -1,7 +1,7 @@
 AOS.init();
 
 const counters = document.querySelectorAll('.counter');
-const speed = 40;
+const speed = 20;
 
 counters.forEach(counter => {
     const updateCount = () => {
